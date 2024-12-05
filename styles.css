@@ -72,6 +72,19 @@ footer p {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h1, h2 {
+  animation: fadeIn 2s ease-in-out;
+}
+
 #acidification p {
   animation: moveRightToLeft 1.4s linear forwards;
   text-align: justify;
