@@ -14,7 +14,7 @@ body {
   
   main {
     padding: 2em;
-    padding-bottom: 4em; /* Ajoutez cette ligne */
+    padding-bottom: 4em; 
   }
   
   section {
@@ -61,5 +61,10 @@ body {
   
   #Pollution p {
     animation: moveRightToLeft 1.4s linear forwards;
+    text-align: justify;
+  }
+
+  #Température p {
+    animation: moveLeftToRight 1.4s linear forwards;
     text-align: justify;
   }
