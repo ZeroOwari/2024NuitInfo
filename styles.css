@@ -91,3 +91,8 @@ footer p {
   animation: moveLeftToRight 1.4s linear forwards;
   text-align: justify;
 }
+
+#Ecosystemes_Organes p {
+  animation: moveRightToLeft 1.4s linear forwards;
+  text-align: justify;
+}
