@@ -3,3 +3,29 @@ body {
     background-color: deepskyblue;
     margin: 0;
 }
+
+div.centre {
+    text-align: center;
+    width: 100%;
+}
+
+div.info {
+    position: relative;
+}
+
+img.info {
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    margin-left: 550px;
+}
+
+div.consequences p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0px;
+    margin-right: 600px;
+    margin-left: 600px;
+}
